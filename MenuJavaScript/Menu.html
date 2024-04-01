@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menú de Ejercicios</title>
+</head>
+<body>
+
+<h1>Miscelanea de ejercicios JavaScript</h1>
+
+<form action="">
+  <label for="opciones">Elija el tipo de ejercicio que quiere observar:</label>
+  <select name="opciones" id="opciones" onchange="mostrarFormulario()">
+    <option value="">Seleccione una opción</option>
+    <option value="operadores">Operadores</option>
+    <option value="condicionales">Condicionales</option>
+    <option value="ciclos">Ciclos</option>
+  </select>
+</form>
+
+<div id="formulario" style="display:none;">
+  <br>
+  <div id="resultado">Resultado:</div>
+  
+</div>
+
+  <script src="archivojava.js" defer></script>
+
+</body>
+</html>
